@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/pau-millan-viarnès-6786702b0" target="_blank" aria-label="LinkedIn">
+                <img src="assets/icons/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/paumillann" target="_blank" aria-label="GitHub">
+                <img src="assets/icons/github-icon.png" alt="GitHub">
+            </a>
+        </div>
+        <h1>Estudios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">&#9750; </a></li>
+                <li><a href="whoami.html">&#8505;</a></li>
+                <li><a href="studies.html">&#x270E;</a></li>
+                <li><a href="experience.html">&#9874;</a></li>
+                <li><a href="hobbies.html">&#10037;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="fullscreen-box">
+            <h2>Estudios 📚</h2>
+            <p>🎓 Actualmente, curso el grado medio en Sistemas Microinformáticos y Redes en el Instituto Milà i Fontanals, donde obtendré el título de Técnico, creando una base sólida en tecnología y redes.</p>
+            <p>🏫 Anteriormente, completé la ESO en el Instituto Pere Vives Vich, donde adquirí los conocimientos fundamentales para mi futuro en informática.</p>
+            <p>🔐 Después del ciclo medio, mi objetivo es continuar con ASIX, especializándome en ciberseguridad para proteger redes y sistemas.</p>
+            <p>📚 Me esfuerzo por mantenerme actualizado a través de cursos en OpenWebinars y Cisco, siguiendo las últimas tendencias tecnológicas.</p>
+
+        </div>
+        <section class="certifications-grid">
+            <div class="certification-box">
+                <a href="assets/certificates/certificado_introducción_a_ethical_hacking.pdf" target="_blank">
+                    <img src="assets/icons/ow.jpg" alt="Certificate Icon">
+                    <p>Certificación de Ethical Hacking</p>
+                </a>
+            </div>
+            <div class="certification-box">
+                <a href="assets/certificates/certificado_curso_de_fundamentos_de_redes__tcp_ip.pdf" target="_blank">
+                    <img src="assets/icons/ow.jpg" alt="Certificate Icon">
+                    <p>Certificación de fundamentos de redes</p>
+                </a>
+            </div>
+            <div class="certification-box">
+                <a href="assets/certificates/certificado_curso_de_powershell_para_principiantes.pdf" target="_blank">
+                    <img src="assets/icons/ow.jpg" alt="Certificate Icon">
+                    <p>Certificación de Powershell (principiantes)</p>
+                </a>
+            </div>
+            <div class="certification-box">
+                <a href="assets/certificates/certificado_curso_de_hacking_con_buscadores__google_bing_y_shodan.pdf" target="_blank">
+                    <img src="assets/icons/ow.jpg" alt="Certificate Icon">
+                    <p>Certificación de Hacking con buscadores</p>
+                </a>
+            </div>
+        </div>
+        <div class="certification-box">
+            <a href="assets/certificates/introduction-to-cybersecurity.png" target="_blank">
+                <img src="assets/icons/cisco.jpg" alt="Certificate Icon">
+                <p>Certificación de CISCO - Introducción a la Ciberseguridad</p>
+            </a>
+        </div>
+        </section>
+    </main>
+    
+
+    <!-- Modal for certificates -->
+    <div id="certificate-modal" class="modal">
+        <span class="close" onclick="closeCertificate()">&times;</span>
+        <img class="modal-content" id="certificate-image">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
